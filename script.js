@@ -1,5 +1,5 @@
 
-const apiKey = 'YOUR_API_KEY';
+const apiKey = 'f807de378e154661b95ff8ddfe940dfd';
 const stocks = ['INFY', 'TCS', 'RELIANCE', 'HDFCBANK'];
 
 async function runFilter() {
