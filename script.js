@@ -52,7 +52,7 @@ async function runFilter() {
 
       const ema9 = prices.slice(0, 9).reduce((a, b, i) => a + b * Math.pow(0.2, i + 1), 0).toFixed(2);
 
-      const rsi = 60; // Placeholder
+      const rsi = 55; // Placeholder
 
       if (latestVolume >= 2 * avgVolume && price > ema9 && rsi > 55) {
         results.push(`<div class="stock">${symbol} - <a href="https://www.tradingview.com/symbols/NSE-${symbol}/" target="_blank">Chart</a></div>`);
